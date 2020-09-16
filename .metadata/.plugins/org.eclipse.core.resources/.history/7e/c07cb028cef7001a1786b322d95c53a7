@@ -1,0 +1,19 @@
+package org.malleswara.book.access;
+
+import org.malleswara.book.Book;
+import org.malleswara.book.impl.BookDaoImpl;
+import org.malleswara.bookdao.BookDAO;
+
+public class BookAccess {
+
+	public static void main(String[] args) {
+
+		BookDAO  bookdao = new BookDaoImpl();
+		
+		for(Book book : bookdao.getAllBooks()){
+			System.out.println("Book ISBN : " + book.getIsbn());
+		}
+		
+	}
+
+}

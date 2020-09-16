@@ -1,0 +1,7 @@
+package org.malleswara.bookdao;
+
+public interface BookDAO {
+	
+	
+
+}

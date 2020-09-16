@@ -1,0 +1,36 @@
+package org.malleswara.book.impl;
+
+import java.util.List;
+
+import org.malleswara.book.Book;
+import org.malleswara.bookdao.BookDAO;
+
+public class BookDaoImpl implements BookDAO {
+
+	@Override
+	public List<Book> getAllBooks() {
+		return null;
+	}
+
+	@Override
+	public Book getBookByIsbn(int isbn) {
+		return null;
+	}
+
+	@Override
+	public void saveBook(Book book) {
+
+	}
+
+	@Override
+	public void updateBook(Book book) {
+
+	}
+
+	@Override
+	public void delateBook(Book book) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

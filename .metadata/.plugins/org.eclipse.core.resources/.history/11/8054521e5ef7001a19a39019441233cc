@@ -1,0 +1,19 @@
+package org.malleswara.book;
+
+public class Book {
+	private int isbn;
+	private String name;
+	private String Author;
+	private double price;
+	
+	public Book(int isbn, String name, String author, double price) {
+		super();
+		this.isbn = isbn;
+		this.name = name;
+		Author = author;
+		this.price = price;
+	}
+	
+	
+
+}

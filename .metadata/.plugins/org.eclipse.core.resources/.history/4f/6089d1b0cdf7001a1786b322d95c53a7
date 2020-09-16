@@ -1,0 +1,10 @@
+package org.malleswara.book.access;
+
+public class BookAccess {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}
